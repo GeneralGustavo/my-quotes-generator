@@ -1,0 +1,24 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+    width: 60%;
+    margin: 0 auto;
+    /* gap: 2rem; */
+    padding: 2rem;
+    font-family: monospace;
+}
+
+.quote-head{
+    padding: 2rem;
+    text-align: center;
+}
+.quote-wrapper{
+    border: .5px solid #5a5a5a;
+    padding: 2rem;
+    color: #5a5a5a;
+    font-size: 24px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
